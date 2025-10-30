@@ -26,3 +26,61 @@ Antes de ejecutar los programas, asegurate de tener instalado un compilador de C
 ```bash
 sudo apt update
 sudo apt install g++
+```
+### 🪟 En Windows
+- Usando Visual Studio Code con la extensión C/C++ de Microsoft
+
+---
+
+## 🚀 Instrucciones de uso
+
+1. Clonar el repositorio
+```bash
+git clone https://github.com/tu_usuario/sistemas-distribuidos.git
+cd sistemas-distribuidos
+```
+
+2. Compilar el programa deseado
+Ejemplo para el algoritmo de Lamport:
+```bash
+g++ lamport.cpp -o lamport
+```
+
+3. Ejecutar el programa
+```bash
+./lamport
+```
+
+O en Windows:
+```bash
+lamport.exe
+```
+
+4. Repetí el proceso para los demás archivos (berkeley.cpp, cristian.cpp).
+
+---
+
+## 🧩 Estructura del repositorio
+```bash
+sistemas-distribuidos/
+├── lamport.cpp      # Relojes lógicos de Lamport
+├── berkeley.cpp     # Sincronización promedio de Berkeley
+├── cristian.cpp     # Sincronización cliente-servidor de Cristian
+├── README.md        # Este archivo
+```
+---
+## 👨‍💻 Autores y cátedra
+
+**Materia**: Sistemas Distribuidos
+**Carrera**: Ingeniería en Sistemas de Información (4° año)
+**Docentes**: Ulises Rapallini y Ernesto Ledesma
+
+**Autores**:
+
+- Fraisinet, Máximo Exequiel
+- Leal, Pablo Valentín
+- Martínez, Ignacio Gabriel
+- Moreyra, Omar Sebastián
+- Guiffrey, Leandro Ezequiel
+
+**Año**: 2025
